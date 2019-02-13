@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="Name" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="Name" layoutX="117.0" layoutY="105.0" text="User Name" />
+      <Label id="Password" layoutX="119.0" layoutY="158.0" text="Password" />
+      <TextField id="TextField" fx:id="UserNameField" layoutX="185.0" layoutY="101.0" />
+      <TextField id="PasswordField" fx:id="PasswordField" layoutX="185.0" layoutY="146.0" />
+      <Button id="LogIn" fx:id="LogInButton" layoutX="175.0" layoutY="200.0" mnemonicParsing="false" text="Log In" />
+      <Button fx:id="RegisterButton" layoutX="174.0" layoutY="242.0" mnemonicParsing="false" text="Registeer" />
+      <Button fx:id="PlayOfflineButton" layoutX="174.0" layoutY="279.0" mnemonicParsing="false" text="Play Offline" />
+   </children>
+</Pane>
